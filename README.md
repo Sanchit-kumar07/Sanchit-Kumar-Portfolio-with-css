@@ -1,4 +1,4 @@
-# Sanchit-Kumar-Portfolio-with-css
+# Sanchit-Kumar-Portfolio-with-css (lab2)
 # My Portfolio Website
 
 This is my personal portfolio project (Lab 2) made using HTML and CSS.  
