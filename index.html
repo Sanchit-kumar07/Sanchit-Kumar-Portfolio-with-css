@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanchit Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Profile Photo">
+    <p>Hello! My name is <strong>Sanchit kumar </strong>. I’m learning web development and this is my first portfolio website with some css or html.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Learning</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>A simple HTML & CSS webpage.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Another awesome mini project.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Message:</label>
+      <textarea placeholder="Write your message" required></textarea>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="topBtn" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑</button>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Sanchit Kumar Yadav | All Rights Reserved</p>
+
+  </footer>
+  <button id="topBtn" onclick="topFunction()">↑</button>
+
+<script>
+  // Show button when user scrolls down
+  const topBtn = document.getElementById("topBtn");
+
+  window.onscroll = function() {
+    if (document.documentElement.scrollTop > 100) {
+      topBtn.style.display = "block";
+    } else {
+      topBtn.style.display = "none";
+    }
+  };
+
+  // Scroll smoothly to top when clicked
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: #0d47a1;
+  color: white;
+  padding: 20px 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  background: white;
+  width: 80%;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+h2 {
+  color: #0d47a1;
+  margin-bottom: 15px;
+}
+
+/* Profile Image */
+img {
+  width: 140px;
+  border-radius: 50%;
+  border: 3px solid #0d47a1;
+  margin: 15px auto;
+  display: block;
+}
+
+/* Table */
+table {
+  width: 60%;
+  margin: 15px auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #0d47a1;
+  padding: 8px;
+}
+th {
+  background: #0d47a1;
+  color: white;
+}
+
+/* Projects */
+.project {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 15px auto;
+  width: 70%;
+  border-radius: 5px;
+}
+
+/* Contact Form */
+form {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  background: #0d47a1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background: #1565c0;
+}
+
+/* Footer */
+footer {
+  background: #0d47a1;
+  color: white;
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+/* Back to Top Button */
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 12px;
+  display: none;
+  cursor: pointer;
+}
+#topBtn:hover {
+  background: #1565c0;
+}
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 12px;
+  font-size: 18px;
+  display: none;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#topBtn:hover {
+  background: #1565c0;
+}
